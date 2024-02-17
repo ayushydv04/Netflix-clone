@@ -98,7 +98,6 @@ html, body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
     z-index: 10;
     /* padding: 0 auto;
     width: 80vh;
@@ -123,7 +122,7 @@ html, body{
     align-items: center; */
     gap: 10px;
     /* margin-top: px; */
-    margin-right: 130px;
+    margin-right: 20px;
 }
 
 .btn-1{
@@ -175,4 +174,38 @@ html, body{
     font-family: 'Netflix Sans';
     color: #fff;
 
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    width: 100%;
+    height: 80vh;
+    /* background-color: red; */
+}
+
+.hero h1,p{
+    color: #fff;
+}
+
+.hero h1{
+    font-family: 'Segoe UI Black';
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.hero p:nth-child(2){
+    font-family: 'Segoe UI';
+    font-size: 24px;
+    border: 2px solid black;
+}
+
+.hero p:nth-child(3){
+    font-family: 'Segoe UI';
+    font-weight: 100;
+    font-size: 20px;
+    border: 2px solid black;
 }
