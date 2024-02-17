@@ -179,7 +179,8 @@ html, body{
 .hero{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
+    margin-top: 18.7%;
     align-items: center;
     gap: 17px;
     width: 100%;
@@ -194,18 +195,58 @@ html, body{
 .hero h1{
     font-family: 'Segoe UI Black';
     font-weight: 900;
-    font-size: 48px;
+    font-size: 46px;
+    /* word-spacing: 5px; */
+    /* letter-spacing: 2px; */
 }
 
 .hero p:nth-child(2){
     font-family: 'Segoe UI';
+    font-weight: 500;
     font-size: 24px;
     border: 2px solid black;
 }
 
 .hero p:nth-child(3){
     font-family: 'Segoe UI';
-    font-weight: 100;
+    font-weight: 500;
     font-size: 20px;
     border: 2px solid black;
 }
+
+.emailbtn{
+    display: flex;
+    gap: 5px;
+}
+
+.emailbtn input{
+    width: 342px;
+    height: 56px;
+    padding: 10px;
+    font-size: 16px;
+    color: #b7b7b7;
+    font-family: 'Netflix Sans';
+    line-height: 24px;
+    background-color: transparent;
+    border: 1px solid #5e5e5e;
+    border-radius: 4px;
+
+}
+
+.emailbtn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 209px;
+    height: 56px;
+    background-color: #c11119;
+    color: #fff;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    border: transparent;
+    border-radius: 4px;
+}
+
