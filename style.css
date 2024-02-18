@@ -320,7 +320,7 @@ html, body{
 }
 
 .image img{
-    width: 100%;
+    width: 98%;
     height: 100%;
 
     position: relative;
@@ -359,7 +359,7 @@ html, body{
     justify-content: end;
     align-items: center;
     width: 145vh;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 53vh;
     /* gap: 30px; */
     /* padding-bottom: 72px; */
@@ -393,17 +393,180 @@ html, body{
     bottom: 20px;
     display: flex;
     background-color: black;
-    border: 2px solid red;
-    width: 240px;
+    border: 2px solid #5a5a5a;
+    width: 275px;
     height: 106px;
-    border-radius: 20px;
+    border-radius: 13px;
+    display: flex;
 }
 
-.detail-overlay img{
+.detail-overlay .img2{
+    position: relative;
+    top: 8px;
+    left: 13px;
     z-index: 10;
-    width: 60px;
-    height: 95px;
+    width: 55px;
+    height: 80px;
 }
+
+
+.section2Text{
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* margin: auto; */
+    font-family: sans-serif;
+    font-size: 16px;
+    /* border: 1px solid red; */
+    
+}
+
+/* .sec2-txt-1{
+    display: flex;
+    flex-direction: column;
+} */
+
+.sec2-txt-1{
+
+    font-weight: 700;
+}
+
+.sec2-txt-2{
+    color: #0064cf;
+}
+
+.detail-overlay .img1{
+    display: flex;
+    /* justify-self: end; */
+    align-self: center;
+    position: relative;
+    left: 18px;
+    /* right: 10px; */
+    width: 48px;
+    height: 60px;
+}
+
+.text-sec-2{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 477px;
+    height:290px;  
+}
+
+.sec-2-h{
+    padding-bottom: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
