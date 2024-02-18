@@ -181,6 +181,7 @@ html, body{
     background-color: #c11119;
     font-family: 'Netflix Sans';
     color: #fff;
+    cursor: pointer;
 
 }
 
@@ -260,13 +261,12 @@ html, body{
     line-height: 24px;
     border: transparent;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .scroll{
     height: 480vh;
     width: 100%;
-    /* background-color: #e36e74; */
-    /* margin-top: 30px; */
     padding-top: 51px;
 }
 
@@ -461,8 +461,61 @@ html, body{
 }
 
 
+.imageSec-3{
+    /* -ms-flex-align: end; */
+    /* flex-direction: end; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: 2px solid purple;
+    height: 100%;
+    width: 50%;
+    /* z-index: 12; */
+    /* background-color: #000; */
+}
+
+.imageSec-3 img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+}
 
 
+.imageSec-3 video{
+    position: absolute;
+    top: 45px;
+    /* height: 100px; */
+    /* height: 91%; */
+    /* width: 80%; */
+    width: 280px;
+    overflow: hidden;
+}
+
+
+.text-sec-4{
+    display: flex;
+    /* padding-top: 0px; */
+    flex-direction: column;
+    border: 2px solid red;
+    width: 477px;
+    height: 250px;
+    
+}
+
+.sec-1-head{
+    font-size: 48px;
+    font-family: 'Netflix Sans';
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.sec-1-text{
+    /* padding-top: 10px; */
+    font-size: 24px;
+    font-family: 'Netflix Sans';
+    font-weight: 400;
+}
 
 
 
