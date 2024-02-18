@@ -168,11 +168,6 @@ html, body{
 }
 
 
-/* .nav .btnright{
-    /* width: 100px; */
-    /* height: 50px; */
-/* } */ 
-
 .btn-2{
     width: 75px;
     height: 32px;
@@ -188,13 +183,11 @@ html, body{
 .hero{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     margin-top: 18.7%;
     align-items: center;
     gap: 17px;
     width: 100%;
     height: 80vh;
-    /* background-color: red; */
 }
 
 .hero h1,p{
@@ -206,9 +199,6 @@ html, body{
     font-weight: 900;
     font-size: 46px;
     text-align: center;
-    
-    /* word-spacing: 5px; */
-    /* letter-spacing: 2px; */
 }
 
 .hero p:nth-child(2){
@@ -278,7 +268,7 @@ html, body{
     justify-content: end;
     align-items: center;
     width: 145vh;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 53vh;
     /* gap: 30px; */
     /* padding-bottom: 72px; */
@@ -288,7 +278,7 @@ html, body{
     display: flex;
     padding-top: 12px;
     flex-direction: column;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 477px;
     height: 193px;
     
@@ -314,7 +304,7 @@ html, body{
     position: relative;
     display: flex;
     justify-content: center;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     height: 100%;
     width: 50%;
 }
@@ -467,7 +457,7 @@ html, body{
     position: relative;
     display: flex;
     justify-content: center;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     height: 100%;
     width: 50%;
     /* z-index: 12; */
@@ -497,7 +487,7 @@ html, body{
     display: flex;
     /* padding-top: 0px; */
     flex-direction: column;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 477px;
     height: 250px;
     
