@@ -301,7 +301,7 @@ html, body{
 }*/
 
 .scroll{
-    height: 400vh;
+    height: 500vh;
     width: 100%;
     /* background-color: #e36e74; */
     /* margin-top: 30px; */
@@ -420,4 +420,97 @@ html, body{
     background-color: #232323;
     border: none;
     margin-bottom: 72px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.questions{
+    color: #fff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    height: 782px;
+    /* border: 2px solid red; */
+    /* background-color: #c11119; */
+}
+
+.quesHead{
+    width: 100%;
+    height: 61px;
+    display: flex;
+    justify-content: center;
+    font-family: "Netflix Sans";
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.box{
+    width: 100%;
+    height: 85px;
+    background-color: #2d2d2d;
+    font-family: 'Netflix Sans';
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+
+.box:hover{
+    background-color: #414141;
+}
+
+.quesText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    /* border: 2px solid #fff; */
+    padding-left: 24px;
+}
+
+.quesText img{
+    padding-right: 24px;
+}
+
+.quesSeperator{
+    width: 100%;
+    height: 9px;
+    background: #000;
+
+}
+
+.quesEnd{
+    width: 100%;
+    margin-top: 10px;
 }
